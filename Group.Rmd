@@ -1,5 +1,5 @@
 ---
-title: "Group"
+title: ""
 author:
 output:
   html_document:
@@ -7,7 +7,7 @@ output:
 
 ---
 
-![](images/figure2.png)
+![](images/figure9.png)
 
 
 

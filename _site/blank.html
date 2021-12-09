@@ -11,7 +11,7 @@
 
 
 
-<title>blank</title>
+<title>blank.knit</title>
 
 <script src="site_libs/header-attrs-2.11/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
@@ -29,6 +29,9 @@
        h6 {font-size: 12px;}
        code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
        pre:not([class]) { background-color: white }</style>
+<script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
+<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
+<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
@@ -220,6 +223,69 @@ $(document).ready(function () {
 
 
 
+<style type="text/css">
+
+#TOC {
+  margin: 25px 0px 20px 0px;
+}
+@media (max-width: 768px) {
+#TOC {
+  position: relative;
+  width: 100%;
+}
+}
+
+@media print {
+.toc-content {
+  /* see https://github.com/w3c/csswg-drafts/issues/4434 */
+  float: right;
+}
+}
+
+.toc-content {
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+div.main-container {
+  max-width: 1200px;
+}
+
+div.tocify {
+  width: 20%;
+  max-width: 260px;
+  max-height: 85%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div.tocify {
+    width: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  div.tocify {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.tocify ul, .tocify li {
+  line-height: 20px;
+}
+
+.tocify-subheader .tocify-item {
+  font-size: 0.90em;
+}
+
+.tocify .list-group-item {
+  border-radius: 0px;
+}
+
+
+</style>
+
+
 
 </head>
 
@@ -227,6 +293,16 @@ $(document).ready(function () {
 
 
 <div class="container-fluid main-container">
+
+
+<!-- setup 3col/9col grid for toc_float and main content  -->
+<div class="row">
+<div class="col-xs-12 col-sm-4 col-md-3">
+<div id="TOC" class="tocify">
+</div>
+</div>
+
+<div class="toc-content col-xs-12 col-sm-8 col-md-9">
 
 
 
@@ -259,7 +335,7 @@ $(document).ready(function () {
   </a>
   <ul class="dropdown-menu" role="menu">
     <li>
-      <a href="index.html">인사말</a>
+      <a href="blank.html">인사말</a>
     </li>
     <li>
       <a href="index.html">목표/연혁</a>
@@ -269,52 +345,6 @@ $(document).ready(function () {
     </li>
     <li>
       <a href="contact_information.html">찾아오시는길</a>
-    </li>
-  </ul>
-</li>
-<li class="dropdown">
-  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
-    <span class="fa fa-info"></span>
-     
-    Research
-     
-    <span class="caret"></span>
-  </a>
-  <ul class="dropdown-menu" role="menu">
-    <li>
-      <a href="blank.html">Part2.1</a>
-    </li>
-    <li>
-      <a href="blank.html">Part2.2</a>
-    </li>
-    <li>
-      <a href="blank.html">Part2.3</a>
-    </li>
-    <li>
-      <a href="blank.html">Part2.4</a>
-    </li>
-  </ul>
-</li>
-<li class="dropdown">
-  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
-    <span class="fa fa-info"></span>
-     
-    Reference
-     
-    <span class="caret"></span>
-  </a>
-  <ul class="dropdown-menu" role="menu">
-    <li>
-      <a href="blank.html">Part3.1</a>
-    </li>
-    <li>
-      <a href="blank.html">Part3.2</a>
-    </li>
-    <li>
-      <a href="blank.html">Part3.3</a>
-    </li>
-    <li>
-      <a href="blank.html">Part3.4</a>
     </li>
   </ul>
 </li>
@@ -335,20 +365,54 @@ $(document).ready(function () {
 
 
 
-<h1 class="title toc-ignore">blank</h1>
-<h4 class="author"></h4>
 
 </div>
 
 
 <hr />
-<p>Blank</p>
+<div id="introduction" class="section level2" number="0.1">
+<h2><span class="header-section-number">0.1</span> Introduction</h2>
+<p>
+<p><img src="images/figure10.png" /></p>
+<div class="row">
+<div class="col-md-6">
+<pre><code>&quot;오늘의 나는 어제의 나보다 더 발전해야 하며
+내일의 나는 오늘의 나보다 더 완벽해야 한다&quot;
+
+안녕하세요! 데이터 프랜즈(Data Friends)입니다.
+저희 홈페이지에 방문해주신 여러분께 진심으로 감사드립니다.
+
+데이터 프랜즈(Data Friends)는 R, Python, Big Data 통계분석을 전문으로 중국어, 일본어 사법통역사 자격을 보유한 대표를 필두로 하여
+중국 원어민 강사까지 상주하고 있는 한•중•일 대학(원)생 맞춤 교육서비스 회사입니다.
+
+저희 데이터 프랜즈는(Data Friends)는 교육생 여러분의 신용과 신뢰를 근본으로 발전을 목표로 하며,
+언제든지 전화 주시면 친절하고 신속하게 교육 상담해 드림과 동시에 수준 높은 교육 서비스 제공으로 교육생 분들의 교육 만족에
+최선을 다할 것을 저희 데이터 프랜즈(Data Friends) 회사 강사진들은 약속드립니다.</code></pre>
+</div>
+<div class="col-md-6">
+<pre><code>&quot;今天的我应该比昨天的我更进步。&quot;
+明天的我必须比今天的我更完美。&quot;
+
+大家好！我们是Data Friends
+真心感谢来到我们主页的各位
+
+Data Friends是以具有R、Python、Big Data统计分析、中文、日语司法翻译资格的代表为首的
+这是一家常驻中国外教的韩中日大学（院）学生量身定做教育服务公司。
+
+我们的数据连锁店（Data Friends）是以各位教育生的信用和信赖为根本的发展目标，
+随时给我打电话，我就会亲切、迅速地咨询教育，同时提供高水平的教育服务，以满足教育需求
+我们Data Friends公司的讲师们承诺会竭尽全力。</code></pre>
+</div>
+</div>
 <hr />
 <!-- We have been using R Markdown for the Ocean Health Index:  [**ohi-science.org/ohi-global**](http://ohi-science.org/ohi-global). -->
 <!-- And R Markdown is much more than just websites -- here's a [**one-minute video about R Markdown**](http://rmarkdown.rstudio.com/lesson-1.html) to get you excited. -->
+</div>
 
 
 
+</div>
+</div>
 
 </div>
 
@@ -381,6 +445,35 @@ $(document).ready(function () {
 
 <!-- code folding -->
 
+<script>
+$(document).ready(function ()  {
+
+    // temporarily add toc-ignore selector to headers for the consistency with Pandoc
+    $('.unlisted.unnumbered').addClass('toc-ignore')
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_');
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>
