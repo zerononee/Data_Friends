@@ -8,7 +8,7 @@ navbar:
       href: index.html
 
 
-    - text: "Introduction"
+    - text: "Menu"
       icon: fa-info
       menu:
         - text: "인사말"
