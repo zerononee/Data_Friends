@@ -1,26 +1,26 @@
 {
-    "id": "B2AC404E",
-    "path": "~/GitHub/Data_Friends/blank.Rmd",
-    "project_path": "blank.Rmd",
+    "id": "C60FDA85",
+    "path": "~/GitHub/Data_Friends/index.Rmd",
+    "project_path": "index.Rmd",
     "type": "r_markdown",
-    "hash": "0",
+    "hash": "4119265690",
     "contents": "",
     "dirty": false,
-    "created": 1639017841446.0,
+    "created": 1639269671249.0,
     "source_on_save": false,
-    "relative_order": 2,
+    "relative_order": 4,
     "properties": {
         "source_window_id": "",
         "Source": "Source",
-        "cursorPosition": "13,0",
-        "scrollLine": "0"
+        "cursorPosition": "42,92",
+        "scrollLine": "33"
     },
     "folds": "",
-    "lastKnownWriteTime": 1639268782,
+    "lastKnownWriteTime": 1639467784,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1639268782,
+    "last_content_update": 1639467784618,
     "read_only": false,
     "read_only_alternatives": []
 }

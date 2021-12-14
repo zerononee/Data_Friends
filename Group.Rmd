@@ -7,12 +7,7 @@ output:
 
 ---
 
-![](images/figure9.png)
-
-
-
-----
-
+![](images/figure11.png)
 
 
 <!-- We have been using R Markdown for the Ocean Health Index:  [**ohi-science.org/ohi-global**](http://ohi-science.org/ohi-global). -->

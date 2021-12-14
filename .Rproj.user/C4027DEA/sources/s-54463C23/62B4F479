@@ -1,24 +1,26 @@
 {
-    "id": "30F3ED05",
-    "path": "~/GitHub/Data_Friends/contact_information.Rmd",
-    "project_path": "contact_information.Rmd",
+    "id": "62B4F479",
+    "path": "~/GitHub/Data_Friends/blank.Rmd",
+    "project_path": "blank.Rmd",
     "type": "r_markdown",
-    "hash": "527210428",
+    "hash": "0",
     "contents": "",
     "dirty": false,
-    "created": 1639017837492.0,
+    "created": 1639269550647.0,
     "source_on_save": false,
     "relative_order": 1,
     "properties": {
         "source_window_id": "",
-        "Source": "Source"
+        "Source": "Source",
+        "cursorPosition": "23,38",
+        "scrollLine": "0"
     },
     "folds": "",
-    "lastKnownWriteTime": 1639017415,
+    "lastKnownWriteTime": 1639466936,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1639017415,
+    "last_content_update": 1639466936783,
     "read_only": false,
     "read_only_alternatives": []
 }

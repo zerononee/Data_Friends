@@ -1,24 +1,24 @@
 {
-    "id": "7C6D2697",
-    "path": "~/GitHub/Data_Friends/_output.yml",
-    "project_path": "_output.yml",
+    "id": "FCDC6968",
+    "path": "~/GitHub/Data_Friends/_site.yml",
+    "project_path": "_site.yml",
     "type": "yaml",
-    "hash": "0",
+    "hash": "2449740873",
     "contents": "",
     "dirty": false,
-    "created": 1639269768917.0,
+    "created": 1639269770550.0,
     "source_on_save": false,
-    "relative_order": 5,
+    "relative_order": 6,
     "properties": {
         "source_window_id": "",
         "Source": "Source"
     },
     "folds": "",
-    "lastKnownWriteTime": 1637927166,
+    "lastKnownWriteTime": 1639269019,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1637927166,
+    "last_content_update": 1639269019,
     "read_only": false,
     "read_only_alternatives": []
 }
